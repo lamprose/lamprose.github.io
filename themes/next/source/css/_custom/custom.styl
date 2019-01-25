@@ -1,0 +1,146 @@
+// Custom styles.
+// 主页文章添加阴影效果
+.post{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+.comments{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+
+// 自定义页脚跳动的心样式
+@keyframes heartAnimate {
+  0%,100%{transform:scale(1);}
+  10%,30%{transform:scale(0.9);}
+  20%,40%,60%,80%{transform:scale(1.1);}
+  50%,70%{transform:scale(1.1);}
+}
+#animate {
+  animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+  color: rgb(0, 0, 0);
+}
+
+// 鼠标样式
+* {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"),auto!important
+}
+:active {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"),auto!important
+}
+.post-block{
+  background-color rgba(255,255,255,0)
+}
+
+
+// Custom styles.
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+
+// 以下为 2018 - 10 - 5 添加的代码
+
+// 代码块 加圆角
+// 感谢 Alliot(https://www.iots.vip)
+.highlight { border-radius: 5px;}
+pre { border-radius: 5px;}
+
+
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+/* firefox */
+::-moz-selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+
+// 修改网站头部颜色
+.headband {
+  height: 3px;
+  background: #49b1f5;
+}
+.site-meta {
+  padding: 20px 0;
+  color: #fff;
+  background: #49b1f5;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+// 修改按键（button）样式
+.btn {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #49b1f5;
+  background: #fff;
+  border: 2px solid #49b1f5;
+  text-decoration: none;
+  border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  line-height: 2;
+}
+// 按键（button）点击时样式
+.btn:hover {
+  border-color: #49b1f5;
+  color: #fff;
+  background: #49b1f5;
+}
+
+// 鼠标移动至文章标题时的效果
+.posts-expand .post-title-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #49b1f5;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+// 以上为 2018 - 10 - 5 添加的代码
+
+.sidebar-inner{
+  background-color: #00000000;
+}
+
+.header-inner{
+  background-color: #00000000;
+}
