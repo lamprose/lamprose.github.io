@@ -66,6 +66,11 @@
         {% endif %}
 
         <div class="post-meta">
+          {% if post.top %}
+            <i class="fa fa-thumb-tack"></i>
+            <font color=7D26CD>置顶</font>
+            <span class="post-meta-divider">|</span>
+          {% endif %}
           <span class="post-time">
 
             {% set date_diff = date(post.date) != date(post.updated) %}
@@ -110,22 +115,6 @@
                 </time>
               {% endif %}
             {% endif %}
-          </span>
-
-          <span class="post-meta-divider">&nbsp; | &nbsp;</span>
-          <span class="post-count-icon">
-            <i class="fa fa-file-word-o"></i>
-          </span>
-          <span class="post-count" title="{{__('symbols_count_time.count')}}">
-            {{__('symbols_count_time.count')}}&nbsp;{{ wordcount(post.content) }}
-          </span>
-
-          <span class="post-meta-divider">&nbsp; | &nbsp;</span>
-          <span class="post-count-icon">
-            <i class="fa fa-file-word-o"></i>
-          </span>
-          <span class="post-count" title="{{__('symbols_count_time.count')}}">
-             {{__('symbols_count_time.time')}}&nbsp;{{ min2read(post.content) }}&nbsp;{{__('symbols_count_time.time_minutes')}}
           </span>
 
           {% if post.categories and post.categories.length and theme.post_meta.categories %}

@@ -5,3 +5,6 @@ db.json
 node_modules/
 public/
 .deploy*/
+source/*/*.md
+source/*.md
+source/*.html
