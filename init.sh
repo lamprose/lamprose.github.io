@@ -8,7 +8,7 @@ cloneArtical(){
   cpPath=$source_floder${currentPath#$gitnote_floder}
   if [ ! -d "`dirname $cpPath`" ]; then
     mkdir -p `dirname $cpPath`/
-  fi		
+  fi
   cp -rf $currentPath $cpPath
 }
 projectPath=`pwd`
@@ -18,7 +18,7 @@ if [ ! -d "$gitnote_floder" ]; then
   cloneGitNote
 fi
 if [ -d "$source_floder" ]; then
-  find $source_floder -name "*.md" | grep -v "README.md" | xargs rm -f
+  find $source_floder -name "*.md" | grep -v "README.md"| grep -v "index.md" | xargs rm -f
 fi
 for item in `find $gitnote_floder -name "*.md" | grep -v "README.md" | grep -v ".unfinished"`
 do
