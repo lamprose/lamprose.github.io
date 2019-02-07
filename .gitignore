@@ -4,6 +4,7 @@ db.json
 *.log
 *.md
 !README.md
+!index.md
 node_modules/
 public/
 .deploy*/
