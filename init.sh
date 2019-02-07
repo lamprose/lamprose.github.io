@@ -1,16 +1,26 @@
 cloneGitNote() {
-  path=`pwd`
   cd ..
   git clone -b blog https://github.com/lipses/GitNote.git
-  cd $path
+  cd $projectPath
 }
+cloneArtical(){
+  currentPath=$1
+  cpPath=$source_floder${currentPath#$gitnote_floder}
+  if [ ! -d "`dirname $cpPath`" ]; then
+    mkdir -p `dirname $cpPath`/
+  fi		
+  cp -rf $currentPath $cpPath
+}
+projectPath=`pwd`
 gitnote_floder=../GitNote
 source_floder=./source
 if [ ! -d "$gitnote_floder" ]; then
   cloneGitNote
 fi
 if [ -d "$source_floder" ]; then
-  rm -rf $source_floder
+  find $source_floder -name "*.md" | grep -v "README.md" | xargs rm -f
 fi
-mkdir $source_floder
-cp -r $gitnote_floder/* $source_floder/
+for item in `find $gitnote_floder -name "*.md" | grep -v "README.md" | grep -v ".unfinished"`
+do
+  cloneArtical $item
+done
