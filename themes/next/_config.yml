@@ -55,7 +55,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -192,13 +192,13 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-#github_banner: https://github.com/yourname || Follow me on GitHub
+github_banner: https://github.com/lipses || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -312,9 +312,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -856,8 +856,9 @@ pace: true
 # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
 # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
 # For example
-# pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+# pace_theme: pace-theme-center-atom
+# pace_theme: pace-theme-center-circle
+pace_theme: pace-theme-loading-bar
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest

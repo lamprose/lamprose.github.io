@@ -6,7 +6,7 @@
       font-size: 13px;
       font-weight: 700;
       line-height: 20px;
-      color: #333;
+      color: #49b1f5;
       white-space: nowrap;
       vertical-align: middle;
       cursor: pointer;
