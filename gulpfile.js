@@ -42,7 +42,7 @@ gulp.task('minify-images', function() {
             {'verbose': true}))
         .pipe(gulp.dest('./public/images'))
 });
-// 默认任务
+// 默认任务^_^
 gulp.task('default', gulp.series(
     'minify-html','minify-css','minify-js','minify-images'
 ));
