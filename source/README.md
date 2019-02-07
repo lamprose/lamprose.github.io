@@ -5,6 +5,9 @@
 博客使用[hexo](https://hexo.io)+[next](https://theme-next.org/)编写而成,具体搭建修改教程见[hexo+github搭建博客](https://lipses.github.io/share/hexo-establish/),文章使用Github+[GitNote](https://gitnoteapp.com/)备份.
 ## 使用方法
 将项目克隆到本地
+```
+git clone -b hexo https://github.com/lipses/lipses.github.io.git
+```
 ### Linux
 在项目文件夹下直接运行命令
 ```
