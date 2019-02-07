@@ -2,9 +2,9 @@
 Thumbs.db
 db.json
 *.log
+*.md
+!README.md
 node_modules/
 public/
 .deploy*/
-source/*/*.md
-source/*.md
 source/*.html
