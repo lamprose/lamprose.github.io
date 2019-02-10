@@ -857,8 +857,8 @@ pace: true
 # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-atom
-# pace_theme: pace-theme-center-circle
-pace_theme: pace-theme-loading-bar
+pace_theme: pace-theme-center-circle
+# pace_theme: pace-theme-loading-bar
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
