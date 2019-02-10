@@ -17,4 +17,6 @@ top: false
 
 copyright: true
 
+related_posts: true
+
 ---
