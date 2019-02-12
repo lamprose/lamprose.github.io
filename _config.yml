@@ -141,3 +141,17 @@ symbols_count_time:
   time: true
   total_symbols: true
   total_time: true
+# hexo-douban 配置
+douban:
+  user: 191540702
+  builtin: false
+  book:
+    title: '我的阅读'
+    #quote: 'This is my book quote'
+  movie:
+    title: '我的电影'
+    #quote: 'This is my movie quote'
+  #game:
+    #title: '我的游戏'
+    #quote: 'This is my game quote'
+  timeout: 10000 

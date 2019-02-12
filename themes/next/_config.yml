@@ -139,6 +139,9 @@ exturl: false
 menu:
   home: / || home
   about: /about/ || user
+  books: /books  || book
+  movies: /movies || film
+  #games: /games || gamepad
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive

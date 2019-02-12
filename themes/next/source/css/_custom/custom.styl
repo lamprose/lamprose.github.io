@@ -1,11 +1,29 @@
-// Custom styles.
+//手机端样式
+@media all
+  .btn-bar{
+    background-color: #49b1f5;
+  }
+@media all
+  .brand{
+    color: #49b1f5
+  }
+
+// 透明背景
+.sidebar,.header-inner,.comments,.pagination,.site-meta,.post-block{
+  background-color:transparent;
+}
 // 主页文章添加阴影效果
-.post,.comments{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+.header-inner,.sidebar-inner,.comments{
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1),0 2px 4px 0px rgba(0, 0, 0, 0.1)
+  //-webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  //-moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+.post-block:hover,.post:hover,.header-inner:hover,.sidebar-inner:hover,.comments:hover{
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1),
+              0 4px 8px 0px rgba(0, 0, 0, 0.1),
+              0 8px 16px 0px rgba(0, 0, 0, 0.1),
+              0 16px 32px 0px rgba(0, 0, 0, 0.1);
+  background-color:#ffffff
 }
 
 // 自定义页脚跳动的心样式
@@ -30,13 +48,6 @@ li.sidebar-nav-overview,li.sidebar-nav-toc,.back-to-top,a,button{
   cursor:url("/images/cursor_pointer.cur"), pointer;
 }
 
-.post-block{
-  background-color rgba(255,255,255,0)
-}
-
-
-// Custom styles.
-
 // 文章内链接文本样式
 .post-body p a{
   color: #49b1f5;
@@ -49,11 +60,7 @@ li.sidebar-nav-overview,li.sidebar-nav-toc,.back-to-top,a,button{
   }
 }
 
-
-// 以下为 2018 - 10 - 5 添加的代码
-
 // 代码块 加圆角
-// 感谢 Alliot(https://www.iots.vip)
 .highlight { border-radius: 5px;}
 pre { border-radius: 5px;}
 
@@ -63,7 +70,6 @@ pre { border-radius: 5px;}
     color: #49b1f5;
   }
 }
-
 
 // 修改选中字符的颜色
 /* webkit, opera, IE9 */
@@ -85,7 +91,6 @@ pre { border-radius: 5px;}
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: transparent;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -137,14 +142,21 @@ pre { border-radius: 5px;}
   transition-delay: 0s;
 }
 
-// 以上为 2018 - 10 - 5 添加的代码
-
-.sidebar-inner,.header-inner,.comments,.pagination{
-  background-color:transparent;
-}
-
+// 自定义样式
 .github-corner{
   position:fixed;
   top:2px;
   right:0px;
+}
+.home-post-tags{
+  font-size: 13 px;
+}
+.home-post-tags a{
+  margin-left: 10px;
+}
+#posts,.header-inner{
+  margin-top:10px;
+}
+.sidebar{
+  margin-top:430px;
 }

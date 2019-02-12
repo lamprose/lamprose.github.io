@@ -333,6 +333,14 @@
       {% endif %}
     </div>
 
+    {% if post.tags and post.tags.length and  is_index %}
+        <div class="home-post-tags">
+          {% for tag in post.tags %}
+            <a href="{{ url_for(tag.path) }}" rel="tag"><i class="fa fa-tag"></i> {{ tag.name }}</a>
+          {% endfor %}
+        </div>
+    {% endif %}
+
     {% if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
       {% include '../_partials/post/post-related.swig' with { post: post } %}
     {% endif %}
@@ -340,7 +348,7 @@
     {#####################}
     {### END POST BODY ###}
     {#####################}
-    + <div style="text-align:center;color: #ccc;font-size:14px;">---------------- The End ----------------</div>
+    <div style="text-align:center;color: #ccc;font-size:14px;">---------------- The End ----------------</div>
     <div>
           {% if not is_index %}
             {% include 'my-copyright.swig' %}
