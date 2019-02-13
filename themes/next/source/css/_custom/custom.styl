@@ -9,23 +9,25 @@
   }
 
 // 透明背景
-.sidebar,.header-inner,.comments,.pagination,.site-meta,.post-block{
+.sidebar,.header-inner,.comments,.pagination,.site-meta,.post-block,#needsharebutton-float span{
   background-color:transparent;
 }
 // 主页文章添加阴影效果
-.header-inner,.sidebar-inner,.comments{
+.header-inner,.sidebar-inner,.comments,#needsharebutton-float .btn{
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1),0 2px 4px 0px rgba(0, 0, 0, 0.1)
   //-webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
   //-moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
 }
-.post-block:hover,.post:hover,.header-inner:hover,.sidebar-inner:hover,.comments:hover{
+.post-block:hover,.post:hover,.header-inner:hover,.sidebar-inner:hover,.comments:hover,#needsharebutton-float span:hover{
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1),
               0 4px 8px 0px rgba(0, 0, 0, 0.1),
               0 8px 16px 0px rgba(0, 0, 0, 0.1),
               0 16px 32px 0px rgba(0, 0, 0, 0.1);
   background-color:#ffffff
 }
-
+#needsharebutton-float .btn:hover i{
+  color:#49b1f5
+}
 // 自定义页脚跳动的心样式
 @keyframes heartAnimate {
   0%,100%{transform:scale(1);}
@@ -159,4 +161,11 @@ pre { border-radius: 5px;}
 }
 .sidebar{
   margin-top:430px;
+}
+.site-subtitle{
+  color:#999;
+}
+#needsharebutton-float .btn{
+  border-color:transparent;
+  font-size:20px;
 }

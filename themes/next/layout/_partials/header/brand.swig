@@ -3,7 +3,7 @@
     {% if theme.custom_logo.enabled and theme.custom_logo.image and theme.scheme === 'Muse' %}
       <div class="site-meta-headline">
         <a>
-          <img class="custom-logo-image" src="{{ theme.custom_logo.image }}" alt="{{ title }}"/>
+          <img class="custom-logo-image" src="{{ theme.custom _logo.image }}" alt="{{ title }}"/>
         </a>
       </div>
     {% endif %}
@@ -19,7 +19,7 @@
       {% if theme.seo %}
         <h1 class="site-subtitle" itemprop="description">{{ subtitle }}</h1>
       {% else %}
-        <p class="site-subtitle">{{ subtitle }}</p>
+        <p class="site-subtitle jinrishici-sentence">{{ subtitle }}</p>
       {% endif %}
     {% endif %}
     {% if theme.custom_logo.enabled and theme.custom_logo.image and (theme.scheme === 'Gemini' or theme.scheme === 'Pisces') %}

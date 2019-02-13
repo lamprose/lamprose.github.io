@@ -4,7 +4,7 @@
 
 # Site
 title: 奔跑吧！代码
-subtitle:
+subtitle: Running Code
 description:
 keywords:
 author: lipses
@@ -84,7 +84,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 plugins:
     hexo-generator-feed
-#Feed Atom
+# Feed Atom
 feed:
     type: atom
     path: atom.xml
@@ -154,4 +154,4 @@ douban:
   #game:
     #title: '我的游戏'
     #quote: 'This is my game quote'
-  timeout: 10000 
+  timeout: 10000
