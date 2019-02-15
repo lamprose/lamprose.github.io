@@ -1,6 +1,6 @@
 cloneGitNote() {
   cd ..
-  git clone -b blog https://github.com/lipses/GitNote.git
+  git clone -b blog https://github.com/lamprose/GitNote.git
   cd $projectPath
 }
 cloneArtical(){

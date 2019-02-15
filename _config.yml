@@ -7,13 +7,13 @@ title: 奔跑吧！代码
 subtitle: Running Code
 description:
 keywords:
-author: lipses
+author: lamprose
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://lipses.github.io
+url: https://lamprose.github.io
 root: /
 permalink: :category/:title/
 permalink_defaults:
@@ -97,7 +97,7 @@ theme: next
 deploy:
   - type: git
     repo:
-      github: git@github.com:lipses/lipses.github.io.git
+      github: git@github.com:lamprose/lamprose.github.io.git
       coding: git@git.dev.tencent.com:lipses/lipses.git
     branch: master
   - type: leancloud_counter_security_sync
@@ -133,7 +133,7 @@ leancloud_counter_security:
   enable_sync: true
   app_id: hD6toShsJcsEQR6gT2iaw58b-gzGzoHsz   # 同前文的id
   app_key: Xn8ohIhFuwNcsDqVdPD6baA2 # 同前文的key
-  username: lipses
+  username: "lamprose"
   password: lps1998.
 
 symbols_count_time:

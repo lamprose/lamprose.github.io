@@ -179,7 +179,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/lipses || github
+  #GitHub: https://github.com/lamprose || github
   CoolApk: http://www.coolapk.com/u/1033375 || at
   #E-Mail: mailto:yourname@gmail.com || envelope
   Weibo: https://weibo.com/elipese || weibo
@@ -201,7 +201,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-github_banner: https://github.com/lipses || Follow me on GitHub
+github_banner: https://github.com/lamprose || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -563,8 +563,8 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: lipses # MUST HAVE, Your Github Username
-  github_repo: lipses.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_user: lamprose # MUST HAVE, Your Github Username
+  github_repo: lamprose.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: a123f67825b1d134eb27 # MUST HAVE, Github client id for the Gitment
   client_secret: f55b2916f2821214c7a889f082c50a8ad1891ba9 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
@@ -853,14 +853,14 @@ lazyload: true
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: true
+pace: false
 # Themes list:
 # pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom
 # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
 # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-atom
-pace_theme: pace-theme-center-circle
+# pace_theme: pace-theme-center-circle
 # pace_theme: pace-theme-loading-bar
 
 # Canvas-nest
