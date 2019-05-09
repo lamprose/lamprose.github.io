@@ -1,0 +1,1 @@
+function randomRgbaColor(){return"rgb("+Math.floor(256*Math.random())+","+Math.floor(256*Math.random())+","+Math.floor(256*Math.random())+")"}function randomTags(){$(this).css("color",randomRgbaColor)}$(document).ready(function(){var a=$(".post-tags a"),o=$(".home-post-tags a");a.each(randomTags),o.each(randomTags)});
