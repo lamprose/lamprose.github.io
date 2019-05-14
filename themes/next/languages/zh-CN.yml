@@ -86,8 +86,8 @@ symbol:
   colon: "："
 reward:
   donate: 打赏
-  all: 求包养！
-  wechatpay: 微信支付
+  qq: QQ
+  wechatpay: 微信
   alipay: 支付宝
   bitcoin: 比特币
 gitmentbutton: 显示 Gitment 评论

@@ -216,7 +216,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /images/header.jpg #/images/avatar.gif
+  url: https://avatars0.githubusercontent.com/u/29279979 #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -331,9 +331,9 @@ codeblock:
 reward:
   enable: true
   comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-  all: /images/all.png
-  #wechatpay: /images/wechatpay.jpg
-  #alipay: /images/alipay.jpg
+  qq: https://raw.githubusercontent.com/lamprose/image_hosting/blog/donate/qq.png
+  wechatpay: https://raw.githubusercontent.com/lamprose/image_hosting/blog/donate/wechat.png
+  alipay: https://raw.githubusercontent.com/lamprose/image_hosting/blog/donate/alipay.png
   #bitcoin: /images/bitcoin.jpg
 
 # Related popular posts

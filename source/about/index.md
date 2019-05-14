@@ -7,7 +7,7 @@ title: 关于我
 
 ## 联系我
 
->+ 酷安：<i class="fa fa-at">[离司](http://www.coolapk.com/u/1033375)
->+ 微博：<i class="fa fa-weibo">[elipese](http://weibo.com/u/5949417272)
->+ 邮箱：<i class="fa fa-google">[离双月](http://myowngmbox@gmail.com)
->+ QQ:2316892579
+>+ 酷安：<i class="fa fa-at"> [离司](http://www.coolapk.com/u/1033375)
+>+ 微博：<i class="fa fa-weibo"> [elipese](http://weibo.com/u/5949417272)
+>+ 邮箱：<i class="fa fa-google"> [离双月](http://myowngmbox@gmail.com)
+>+ Q Q：<i class="fa fa-qq"> [2316892579](<https://qm.qq.com/cgi-bin/qm/qr?k=qA7npz47wMvlPNxEadbVE5LH1v2BYX7j>)

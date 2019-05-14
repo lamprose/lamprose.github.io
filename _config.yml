@@ -62,11 +62,13 @@ category_map:
   分享: share
   日常: dailylife
   其他: others
+  JAVA: java
   未分类: uncategorized
 tag_map:
   前端: fore-end
   后端: back-end
   爬虫: reptile
+  信息安全: info-security
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -98,7 +100,6 @@ deploy:
   - type: git
     repo:
       github: git@github.com:lamprose/lamprose.github.io.git
-      coding: git@git.dev.tencent.com:lipses/lipses.git
     branch: master
   - type: leancloud_counter_security_sync
 
@@ -118,7 +119,7 @@ leancloud_counter_security:
   enable_sync: true
   app_id: hD6toShsJcsEQR6gT2iaw58b-gzGzoHsz   # 同前文的id
   app_key: Xn8ohIhFuwNcsDqVdPD6baA2 # 同前文的key
-  username: "lamprose"
+  username: lamprose
   password: lps1998.
 
 symbols_count_time:

@@ -5,10 +5,10 @@
   </button>
   <div id="QR" style="display: none;">
 
-    {% if theme.reward.all %}
-      <div id="all" style="display: inline-block">
-        <img id="all_qr" src="{{ url_for(theme.reward.all) }}" alt="{{ author }} {{ __('reward.all') }}"/>
-        <p>{{ __('reward.all') }}</p>
+    {% if theme.reward.qq %}
+      <div id="qq" style="display: inline-block">
+        <img id="qq_qr" src="{{ url_for(theme.reward.qq) }}" alt="{{ author }} {{ __('reward.qq') }}"/>
+        <p>{{ __('reward.qq') }}</p>
       </div>
     {% endif %}
 
