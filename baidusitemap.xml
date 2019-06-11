@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lamprose.github.io/java/UKiller/</loc>
+    <lastmod>2019-06-11</lastmod>
+  </url>  <url>
+    <loc>https://lamprose.github.io/development/pip/</loc>
+    <lastmod>2019-06-09</lastmod>
+  </url>  <url>
     <loc>https://lamprose.github.io/development/vue-token/</loc>
-    <lastmod>2019-05-11</lastmod>
+    <lastmod>2019-06-03</lastmod>
   </url>  <url>
     <loc>https://lamprose.github.io/share/hexo-establish/</loc>
     <lastmod>2019-05-11</lastmod>
@@ -14,9 +20,6 @@
     <lastmod>2019-05-09</lastmod>
   </url>  <url>
     <loc>https://lamprose.github.io/development/Magisk/</loc>
-    <lastmod>2019-05-09</lastmod>
-  </url>  <url>
-    <loc>https://lamprose.github.io/development/pip/</loc>
     <lastmod>2019-05-09</lastmod>
   </url>  <url>
     <loc>https://lamprose.github.io/development/hello-world/</loc>
